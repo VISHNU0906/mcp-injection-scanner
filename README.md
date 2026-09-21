@@ -2,15 +2,15 @@
 
 **Security scanner for Model Context Protocol (MCP) servers.**
 
-MCP adoption has exploded since 2025 — every major IDE, coding assistant, and AI product now runs MCP servers to give LLMs access to tools, files, and external services. Security tooling around MCP is essentially nonexistent. This fills the gap.
+MCP adoption has exploded since 2025 :  every major IDE, coding assistant, and AI product now runs MCP servers to give LLMs access to tools, files, and external services. Security tooling around MCP is essentially nonexistent. This fills the gap.
 
 `mcp-injection-scanner` detects:
 
-- **Prompt injection** — malicious instructions embedded in tool descriptions or parameter metadata
-- **Tool description hijacking** — servers impersonating system tools or hijacking LLM tool selection
-- **Parameter pollution** — overly permissive schemas that allow injection via input values
-- **Indirect injection via resources** — attacks hidden inside files, documents, or API responses that an LLM reads
-- **SSRF via resource URIs** — resource endpoints pointing to cloud metadata or internal services
+- **Prompt injection** :  malicious instructions embedded in tool descriptions or parameter metadata
+- **Tool description hijacking** :  servers impersonating system tools or hijacking LLM tool selection
+- **Parameter pollution** :  overly permissive schemas that allow injection via input values
+- **Indirect injection via resources** :  attacks hidden inside files, documents, or API responses that an LLM reads
+- **SSRF via resource URIs** :  resource endpoints pointing to cloud metadata or internal services
 
 ```
 $ mcp-scan https://suspicious-mcp-server.example.com
@@ -246,7 +246,7 @@ Issues and PRs welcome. When reporting a new injection pattern, please include:
 
 ## License
 
-MIT — see [LICENSE](LICENSE).
+MIT :  see [LICENSE](LICENSE).
 
 ---
 
